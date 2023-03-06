@@ -19,24 +19,33 @@ padding-right: 50px;
 margin-top: 15px;
 width: 900px;
 margin-left: 90px;
+height: 500px;
+border: 1px solid;
 
 }
-.main{
-  padding-bottom:50px ;
-  padding-top: 20px;
+.main {
+  /* padding-bottom:50px ;
+  padding-top: 20px; */
+
+}
+.main h4{
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .selected-note {
-  background-color: #0d3b66;;
+  background-color: #0d3b66;
+  color: #fff;
 }
 .right{
-  background-color: green;
+  background-color: #132a13;
+  color:#99d98c;
 
 }
 .box{
 /* width: 700px; */
 
-font-size: 13px;
+font-size: 11px;
 margin-right: 50px;
 
 }
@@ -47,19 +56,25 @@ margin-right: 50px;
 
   /* padding-left: px; */
 }
-.objs button{
+.select-button{
   cursor: pointer;
   width: 150px;
-  height: 40px;
+  min-height: 20px;
+  max-height: 80px;
   border-radius: 15px;
   border: 1px  #0d3b66 solid;
-  color: #0d3b66;
-  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+font-size: 12px;
+
   transform: all ease 0.5s;
   font-weight: 600;
 }
-
-.objs button:hover{
+.button-color{
+ background-color: #fff;
+ color: #0d3b66;
+}
+ .objs button:hover{
   background-color: #0d3b66;
   color: white;
 

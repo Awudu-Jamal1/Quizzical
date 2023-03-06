@@ -50,7 +50,8 @@ setSolution(prev =>m?
 
   const  disabled = solution.length !==10 ? true:false
 
-  const allQuestions = fetched.map((quest,i )=><Question key={i} value={i} show={show} quest={quest} solutions={solutions} />)
+  const allQuestions = fetched.map((quest,i )=>i<5?<Question key={i} value={i} show={show}
+  quest={quest} solutions={solutions} />:'')
   return (
     <div className="App">
      <div> {allQuestions}</div>

@@ -23,11 +23,11 @@ const handleResponse=(i,a,reply,btn)=>{
 }
 
 let correct = props.show ? correct_answer:''
-// let select =
-console.log(show,correct)
+console.log(response[1])
+// console.log(show,correct)
 const decsion = response === correct_answer? 'Correct':'Wrong'
 const objective=incorrect_answers.map((obj,i) =><button disabled={props.show}
-className={`${correct ===obj?"right":i=== response[1] ? "selected-note" : "" }`}
+className={`select-button ${correct ===obj?"right":i=== response[1] ? "selected-note" : "button-color" }`}
 onClick={()=>handleResponse(props.value,correct_answer,obj,i)} key={i}
 >{obj}</button>)
     return(
