@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  /* display: flex;
+  flex-direction: column; */
+padding-left: 60px;
+padding-right: 50px;
+margin-top: 15px;
+width: 900px;
+margin-left: 90px;
+
+}
+.main{
+  padding-bottom:50px ;
+  padding-top: 20px;
+}
+
+.selected-note {
+  background-color: #0d3b66;;
+}
+.right{
+  background-color: green;
+
+}
+.box{
+/* width: 700px; */
+
+font-size: 13px;
+margin-right: 50px;
+
+}
+.objs{
+  display: flex;
+  justify-content: space-between;
+
+
+  /* padding-left: px; */
+}
+.objs button{
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px  #0d3b66 solid;
+  color: #0d3b66;
+  background-color: #fff;
+  transform: all ease 0.5s;
+  font-weight: 600;
+}
+
+.objs button:hover{
+  background-color: #0d3b66;
+  color: white;
+
+}
