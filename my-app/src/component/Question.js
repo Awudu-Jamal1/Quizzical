@@ -22,7 +22,7 @@ const Question = (props) => {
   let correct = props.show ? correct_answer : "";
   console.log(response[1]);
   // console.log(show,correct)
-  const decsion = response === correct_answer ? "Correct" : "Wrong";
+//   const decsion = response === correct_answer ? "Correct" : "Wrong";
   const objective = incorrect_answers.map((obj, i) => (
     <button
       disabled={props.show}
